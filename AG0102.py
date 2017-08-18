@@ -19,8 +19,8 @@ module_path = r'D:\PCCS\01_Analysis\01_DataAnalysis\00_Parametros\scripts'
 if module_path not in sys.path:
     sys.path.append(module_path)
 
-from SUN.asignar_sun import asignar_sun
-from SUN_integridad.SUN_integridad import SUN_integridad
+from SUN.asignar_sun import asignar_sun                     # Disponible en https://github.com/Caranarq/SUN
+from SUN_integridad.SUN_integridad import SUN_integridad    # Disponible en https://github.com/Caranarq/SUN_integridad
 
 # Importar datos
 data = pd.read_csv("test.csv")
